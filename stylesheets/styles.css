@@ -148,7 +148,18 @@ a {
 .hidden-detail .thumbnail-item{
     max-width: 80%;
 }
+ 
+/* Styles to make the arrows smaller and more compact instead of being huge*/
+.left-button{
+    height:15%;
+    margin-left: 80%;
+    width: 15%;
+}
 
+.right-button{
+    height:15%;
+    width: 15%;
+}
 /*       The code below is code for chapter 5   */
 /*
 @media all and (min-width: 768px) {
