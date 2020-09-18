@@ -70,7 +70,7 @@ a {
     transition: transform 133ms ease-in-out;
 }
 
-.thumbnail-item:hover{
+.thumbnail-item:hover {
     transform: scale(1.2);
 }
 
@@ -113,10 +113,10 @@ a {
     position: relative;
     text-align: center;
 
-    transition: transform 333ms cubic-bezier(.65,.23,.7,.72);
+    transition: transform 333ms cubic-bezier(.65, .23, .7, .72);
 }
 
-.is-tiny{
+.is-tiny {
     transform: scale(0.001);
     transition: transform 0ms;
 }
@@ -136,30 +136,31 @@ a {
     font-size: 5em;
 }
 
-.hidden-detail .detail-image-container{
+.hidden-detail .detail-image-container {
     display: none;
 }
 
-.hidden-detail .thumbnail-list{
+.hidden-detail .thumbnail-list {
     flex-direction: column;
     align-items: center;
 }
 
-.hidden-detail .thumbnail-item{
+.hidden-detail .thumbnail-item {
     max-width: 80%;
 }
- 
+
 /* Styles to make the arrows smaller and more compact instead of being huge*/
-.left-button{
-    height:15%;
+.left-button {
+    height: 15%;
     margin-left: 80%;
     width: 15%;
 }
 
-.right-button{
-    height:15%;
+.right-button {
+    height: 15%;
     width: 15%;
 }
+
 /*       The code below is code for chapter 5   */
 /*
 @media all and (min-width: 768px) {
